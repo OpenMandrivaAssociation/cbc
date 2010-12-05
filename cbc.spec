@@ -10,7 +10,7 @@ Group:		Sciences/Mathematics
 License:	CPL
 Summary:	An open-source mixed integer programming solver
 Version:	2.4.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 URL:		http://www.coin-or.org/
 Source0:	http://www.coin-or.org/download/source/Cbc/Cbc-%{version}.tgz
 # wget http://netlib.sandia.gov/cgi-bin/netlib/netlibfiles.tar?filename=netlib/ampl/solvers

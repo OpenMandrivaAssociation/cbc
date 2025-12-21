@@ -17,6 +17,11 @@ Source0:	http://www.coin-or.org/download/source/Cbc/Cbc-%{version}.tgz
 Source1:	solvers.tar
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	blas-devel
 BuildRequires:	glpk-devel
 BuildRequires:	lapack-devel
